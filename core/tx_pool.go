@@ -961,6 +961,8 @@ func (pool *TxPool) promoteTx(addr common.Address, hash common.Hash, tx *types.T
 
 	// Successful promotion, bump the heartbeat
 	pool.beats[addr] = time.Now()
+
+	// TODO: Send pending tx on wss
 	return true
 }
 

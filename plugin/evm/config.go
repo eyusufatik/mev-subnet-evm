@@ -47,6 +47,7 @@ var defaultEnabledAPIs = []string{
 	"web3",
 	"internal-public-eth",
 	"internal-public-blockchain",
+	"internal-public-tx-pool",
 	"internal-public-transaction-pool",
 }
 
